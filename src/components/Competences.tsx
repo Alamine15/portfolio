@@ -20,10 +20,7 @@ export default function Competences() {
             TypeScript
           </div>
 
-          <div className="rounded-2xl border border-cyan-500/40 bg-zinc-900/40 py-6 hover:border-cyan-400 transition">
-            React
-          </div>
-
+          
           <div className="rounded-2xl border border-teal-500/40 bg-zinc-900/40 py-6 hover:border-teal-400 transition">
             TailwindCSS
           </div>
@@ -38,6 +35,10 @@ export default function Competences() {
 
           <div className="rounded-2xl border border-red-500/40 bg-zinc-900/40 py-6 hover:border-red-400 transition">
             Java
+          </div>
+          
+          <div className="rounded-2xl border border-cyan-500/40 bg-zinc-900/40 py-6 hover:border-cyan-400 transition">
+            MySQL
           </div>
 
           <div className="rounded-2xl border border-gray-400/40 bg-zinc-900/40 py-6 hover:border-gray-200 transition">

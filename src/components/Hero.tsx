@@ -11,7 +11,7 @@ export default function Hero() {
         </h2>
 
         <p className="text-blue-300 mb-6">
-          Computer Science Student • Front-End & Graphic Designer
+          Etudiant en informatique • Developpement Web & Graphic Designer
         </p>
 
         <div className="mt-10 flex justify-center mb-8">
