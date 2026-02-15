@@ -15,11 +15,11 @@ export default function Contact() {
           Facebook
         </a>
 
-        <a href="https://www.instagram.com/amineshop_15/" target="_blank" className="
+        <a href="https://www.linkedin.com/in/al-amine-sao-b74162247/" target="_blank" className="
             px-6 py-3 rounded-xl bg-zinc-900/50 border border-pink-900
            hover:bg-pink-500 hover:text-white hover:border-pink-400
            transition-all duration-300">
-          Instagram
+          Linkedin
         </a>
 
         <a href="https://github.com/Alamine15" target="_blank" className="
