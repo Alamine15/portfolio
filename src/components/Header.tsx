@@ -8,7 +8,7 @@ export default function Header() {
         <img
           src={Logo}
           alt="Logo Techamine"
-          className="h-15 w-auto"
+          className="h-10 w-auto"
         />
 
         <div className="flex gap-6 text-sm text-zinc-400">
@@ -26,7 +26,7 @@ export default function Header() {
           </a>
 
           <a href="#experience" className="hover:text-cyan-300 transition">
-            Expériences Professionnelles
+            Expériences
           </a>
 
           <a href="#competences" className="hover:text-cyan-300 transition">
