@@ -12,6 +12,7 @@ export default function Header() {
         />
 
         <div className="hidden md:flex gap-6 text-sm text-zinc-400">
+
           <a href="#hero" className="hover:text-cyan-300 transition">
             Accueil
           </a>
@@ -39,7 +40,6 @@ export default function Header() {
           <a href="#contact" className="hover:text-cyan-300 transition">
             Contact
           </a>
-                    <button className="md:hidden text-cyan-400"></button>
 
         </div>
 
