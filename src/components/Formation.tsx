@@ -9,10 +9,10 @@ export default function Formation() {
       <div className="text-zinc-400 space-y-2">
         <p>Licence 2 en Génie Informatique</p>
             <p className="text-sm text-zinc-500">
-            (2025-2026) Licence 2 Génie Informatique : Univers Professionnels <br />
-            (2024-2025) Licence 1 Génie Informatique : Univers Professionnels <br />
-            (2022-2023) Licence 1 Physique Chimie Sciences de la Matière : UCAD<br />
-            (2021-2022) Baccalauréat Série Scientifique : Lycée Seydina Limamou Laye <br />
+            (2025-2026) ! Licence 2 Génie Informatique : Univers Professionnels <br />
+            (2024-2025) : Licence 1 Génie Informatique : Univers Professionnels <br />
+            (2022-2023) : Licence 1 Physique Chimie Sciences de la Matière : UCAD<br />
+            (2021-2022) : Baccalauréat Série Scientifique : Lycée Seydina Limamou Laye <br />
             </p>
       </div>
 

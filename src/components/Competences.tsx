@@ -82,9 +82,8 @@ export default function Competences() {
           
           <div className="max-w-3xl mx-auto text-zinc-400 space-y-4 mt- py-2 px-6 text-center">
           <p>• Mise en page de documents profesionnels (CV, Traitement de texte, etc..) </p>
-          <p>• Création de support print(Bache, T-Shirt, Kakémonos, ...)</p>
-          <p>• Création de flyers et affiche publicitaire</p>
-          <p>• Création de graphiques et infographies</p>
+          <p>• Création de support et impression sur support de commiunication (Bache, T-Shirt, Kakémonos, ...)</p>
+          <p>• Création de flyers et affiche publicitaire </p>
           <p>• Conception d'identité vidsuelle</p>
           <p>• Création de vidéos animées</p>
           <p>• Création de logo</p>

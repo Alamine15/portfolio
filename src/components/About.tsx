@@ -10,7 +10,7 @@ export default function About() {
        <span> J’aime concevoir des interfaces modernes, claires et intuitives, en combinant 
         logique technique et sens du visuel. </span>
         <span>Mon approche repose sur l'équilibre entre logique technique et sens esthétique, avec une vision 
-        attention particulière portée à la clarté, sur le structure et l'expérience utilisateur. 
+        attention particulière portée à la clarté, sur la structure et l'expérience utilisateur. 
         </span>
         <span> A travers mes projets, je cherche à concevoir des réalisations à la fois fonctionnelles, intuitives et 
           visuellement soignées.

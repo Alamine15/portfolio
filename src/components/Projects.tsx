@@ -4,9 +4,9 @@ import Carte from "../assets/carte-de-visite.png";
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 px-6">
+    <section id="projects" className="py-1 px-6">
 
-      <h2 className="text-3xl font-bold text-center mb-14 text-cyan-300">
+      <h2 className="text-3xl font-bold text-center mb-8 text-cyan-300">
         Mes dernires projets
       </h2>
 
