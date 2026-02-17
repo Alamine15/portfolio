@@ -8,6 +8,13 @@ export default function Contact() {
 
       <div className="flex justify-center gap-4">
 
+        <a href="mailto!alamine2210@gmail.com" target="_blank" className="
+            px-6 py-3 rounded-xl bg-zinc-900/50 border border-cyan-700
+           hover:bg-cyan-400 hover:text-black hover:border-cyan
+           transition-all duration-300">
+          Email
+        </a>
+
         <a href="https://www.facebook.com/aminesaoshop" target="_blank" className="
             px-6 py-3 rounded-xl bg-zinc-900/50 border border-blue-900
            hover:bg-blue-600 hover:text-white hover:border-blue-400
@@ -16,8 +23,8 @@ export default function Contact() {
         </a>
 
         <a href="https://www.linkedin.com/in/al-amine-sao-b74162247/" target="_blank" className="
-            px-6 py-3 rounded-xl bg-zinc-900/50 border border-pink-900
-           hover:bg-pink-500 hover:text-white hover:border-pink-400
+            px-6 py-3 rounded-xl bg-zinc-900/50 border border-blue-300
+           hover:bg-blue-400 hover:text-black hover:border-blue-400
            transition-all duration-300">
           Linkedin
         </a>
@@ -27,6 +34,13 @@ export default function Contact() {
            hover:bg-white hover:text-black hover:border-white
            transition-all duration-300">
           GitHub
+        </a>
+
+        <a href="wa.me/221785770562" target="_blank" className="
+            px-6 py-3 rounded-xl bg-zinc-900/50 border border-green-400
+           hover:bg-green-500 hover:text-black hover:border-cyan
+           transition-all duration-300">
+          WhatsApp
         </a>
 
       </div>

@@ -6,11 +6,15 @@ export default function About() {
       </h2>
 
       <p className="text-zinc-400 max-w-2xl mx-auto leading-relaxed">
-        Je suis étudiant en Licence 2 Informatique, passionné par le développement web et le design graphique.
-        J’aime concevoir des interfaces modernes, claires et intuitives, en combinant 
-        logique technique et sens du visuel.
-        Mon objectif est de créer des expériences digitales à la fois 
-        fonctionnelles et esthétiques.
+        <span>Je suis étudiant en Licence 2 Informatique, passionné par le développement web et le design graphique.</span>
+       <span> J’aime concevoir des interfaces modernes, claires et intuitives, en combinant 
+        logique technique et sens du visuel. </span>
+        <span>Mon approche repose sur l'équilibre entre logique technique et sens esthétique, avec une vision 
+        attention particulière portée à la clarté, sur le structure et l'expérience utilisateur. 
+        </span>
+        <span> A travers mes projets, je cherche à concevoir des réalisations à la fois fonctionnelles, intuitives et 
+          visuellement soignées.
+        </span>
       </p>
     </section>
   );

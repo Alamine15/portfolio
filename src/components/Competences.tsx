@@ -2,8 +2,9 @@ export default function Competences() {
   return (
     <section id="competences" className="py-24 px-6">
 
-      <h2 className="text-3xl font-bold text-center mb-14 text-cyan-300">
-        Compétences Techniques
+      <h2 className="text-3xl font-bold text-center mb-8 text-cyan-300">
+        Compétences :
+        <h3>Outils Techniques</h3>
       </h2>
 
         <div className="grid grid-cols-3 gap-5 max-w-4xl mx-auto text-center">
@@ -49,7 +50,7 @@ export default function Competences() {
 
 
         <div>
-        <h2 className="text-3xl font-bold text-center mb-4 mt-10 text-cyan-300">
+        <h2 className="text-3xl font-bold text-center mb-6 mt-6 text-cyan-300">
        Outil de Design et Création
       </h2>
 
@@ -74,7 +75,16 @@ export default function Competences() {
           <div className="rounded-2xl border border-pink-500/40 bg-zinc-900/40 px-6 py-4 hover:border-pink-400 transition">
             Adobe InDesign
           </div>
+          <div className="max-w-3xl mx-auto text-zinc-400 space-y-4 mt- py-2 px-6 text-center">
+          <p>• Mise en page de documents profesionnels (CV, Traitement de texte, etc..) </p>
+          <p>• Création de support print(Bache, T-Shirt, Kakémonos, ...)</p>
+          <p>• Création de flyers et affiche publicitaire</p>
+          <p>• Création de graphiques et infographies</p>
+          <p>• Conception d'identité vidsuelle</p>
+          <p>• Création de vidéos animées</p>
+          <p>• Création de logo</p>
 
+          </div>
         </div>
 
      </div>
