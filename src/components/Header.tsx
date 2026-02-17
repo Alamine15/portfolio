@@ -11,7 +11,7 @@ export default function Header() {
           className="h-10 w-auto"
         />
 
-        <div className="flex gap-6 text-sm text-zinc-400">
+        <div className="flex gap-6 text-sm text-zinc-400 overflow-x-auto whitespace-nowrap">
 
           <a href="#hero" className="hover:text-cyan-300 transition">
             Accueil
