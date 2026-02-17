@@ -60,21 +60,26 @@ export default function Competences() {
             Adobe Photoshop
           </div>
 
-          <div className="rounded-2xl border border-orange-500/40 bg-zinc-900/40 px-6 py-4 hover:border-orange-400 transition">
-            Adobe Illustrator
-          </div>
-
           <div className="rounded-2xl border border-purple-500/40 bg-zinc-900/40 px-6 py-4 hover:border-purple-400 transition">
             Canva
+          </div>
+
+          <div className="rounded-2xl border border-orange-500/40 bg-zinc-900/40 px-6 py-4 hover:border-orange-400 transition">
+            Adobe Illustrator
           </div>
 
           <div className="rounded-2xl border border-violet-500/40 bg-zinc-900/40 px-6 py-4 hover:border-violet-400 transition">
             Adobe After Effects
           </div>
+          
+          <div className="rounded-2xl border border-gray-500/40 bg-zinc-900/40 px-6 py-4 hover:border-gray-400 transition">
+            CapCut
+          </div>
 
           <div className="rounded-2xl border border-pink-500/40 bg-zinc-900/40 px-6 py-4 hover:border-pink-400 transition">
             Adobe InDesign
           </div>
+          
           <div className="max-w-3xl mx-auto text-zinc-400 space-y-4 mt- py-2 px-6 text-center">
           <p>• Mise en page de documents profesionnels (CV, Traitement de texte, etc..) </p>
           <p>• Création de support print(Bache, T-Shirt, Kakémonos, ...)</p>

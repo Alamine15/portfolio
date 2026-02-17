@@ -8,7 +8,7 @@ export default function Contact() {
 
       <div className="flex justify-center gap-4">
 
-        <a href="mailto!alamine2210@gmail.com" target="_blank" className="
+        <a href="mailto:alamine2210@gmail.com" target="_blank" className="
             px-6 py-3 rounded-xl bg-zinc-900/50 border border-cyan-700
            hover:bg-cyan-400 hover:text-black hover:border-cyan
            transition-all duration-300">
@@ -36,7 +36,7 @@ export default function Contact() {
           GitHub
         </a>
 
-        <a href="wa.me/221785770562" target="_blank" className="
+        <a href="https://wa.me/221785770562" target="_blank" className="
             px-6 py-3 rounded-xl bg-zinc-900/50 border border-green-400
            hover:bg-green-500 hover:text-black hover:border-cyan
            transition-all duration-300">
