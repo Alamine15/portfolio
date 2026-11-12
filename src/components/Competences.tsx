@@ -1,83 +1,114 @@
+
 export default function Competences() {
   return (
-    <section id="competences" className="py-24 px-6">
+    <section
+      id="competences"
+      className="scroll-mt-24 px-4 sm:px-6 py-20 sm:py-28"
+    >
+      <div className="max-w-5xl mx-auto">
 
-      <h2 className="text-3xl font-bold text-center mb-14 text-cyan-300">
-        Compétences Techniques
-      </h2>
+        {/* Titre principal */}
+        <div className="text-center mb-12 sm:mb-16">
+          <span className="text-cyan-400 text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase">
+            Mon savoir-faire
+          </span>
 
-        <div className="grid grid-cols-3 gap-5 max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mt-3">
+            Mes <span className="text-cyan-300">compétences</span>
+          </h2>
 
-          <div className="rounded-2xl border border-orange-500/40 bg-zinc-900/40 py-6 hover:border-orange-400 transition">
-            HTML
-          </div>
-
-          <div className="rounded-2xl border border-blue-500/40 bg-zinc-900/40 py-6 hover:border-blue-400 transition">
-            CSS
-          </div>
-
-          <div className="rounded-2xl border border-sky-500/40 bg-zinc-900/40 py-6 hover:border-sky-400 transition">
-            TypeScript
-          </div>
-
-          
-          <div className="rounded-2xl border border-teal-500/40 bg-zinc-900/40 py-6 hover:border-teal-400 transition">
-            TailwindCSS
-          </div>
-
-          <div className="rounded-2xl border border-indigo-500/40 bg-zinc-900/40 py-6 hover:border-indigo-400 transition">
-            PHP
-          </div>
-
-          <div className="rounded-2xl border border-yellow-500/40 bg-zinc-900/40 py-6 hover:border-yellow-400 transition">
-            Python
-          </div>
-
-          <div className="rounded-2xl border border-red-500/40 bg-zinc-900/40 py-6 hover:border-red-400 transition">
-            Java
-          </div>
-          
-          <div className="rounded-2xl border border-cyan-500/40 bg-zinc-900/40 py-6 hover:border-cyan-400 transition">
-            MySQL
-          </div>
-
-          <div className="rounded-2xl border border-gray-400/40 bg-zinc-900/40 py-6 hover:border-gray-200 transition">
-            Langage C
-          </div>
-
-            </div>
-
-
-        <div>
-        <h2 className="text-3xl font-bold text-center mb-4 mt-10 text-cyan-300">
-       Outil de Design et Création
-      </h2>
-
-        <div className="flex justify-center gap-5 flex-wrap">
-
-          <div className="rounded-2xl border border-blue-500/40 bg-zinc-900/40 px-6 py-4 hover:border-blue-400 transition">
-            Adobe Photoshop
-          </div>
-
-          <div className="rounded-2xl border border-orange-500/40 bg-zinc-900/40 px-6 py-4 hover:border-orange-400 transition">
-            Adobe Illustrator
-          </div>
-
-          <div className="rounded-2xl border border-purple-500/40 bg-zinc-900/40 px-6 py-4 hover:border-purple-400 transition">
-            Canva
-          </div>
-
-          <div className="rounded-2xl border border-violet-500/40 bg-zinc-900/40 px-6 py-4 hover:border-violet-400 transition">
-            Adobe After Effects
-          </div>
-
-          <div className="rounded-2xl border border-pink-500/40 bg-zinc-900/40 px-6 py-4 hover:border-pink-400 transition">
-            Adobe InDesign
-          </div>
-
+          <div className="w-16 h-1 bg-cyan-400 rounded-full mx-auto mt-5" />
         </div>
 
-     </div>
+        {/* Développement */}
+        <div className="mb-16">
+
+          <h3 className="text-xl sm:text-2xl font-semibold text-white mb-7 text-center sm:text-left">
+            <span className="text-cyan-400">01.</span> Compétences techniques
+          </h3>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-5">
+
+            <div className="rounded-xl border border-orange-500/30 bg-zinc-900/60 p-5 sm:p-7 text-center text-orange-400 font-semibold hover:border-orange-400 hover:-translate-y-1 transition duration-300">
+              HTML
+            </div>
+
+            <div className="rounded-xl border border-blue-500/30 bg-zinc-900/60 p-5 sm:p-7 text-center text-blue-400 font-semibold hover:border-blue-400 hover:-translate-y-1 transition duration-300">
+              CSS
+            </div>
+
+            <div className="rounded-xl border border-sky-500/30 bg-zinc-900/60 p-5 sm:p-7 text-center text-sky-400 font-semibold hover:border-sky-400 hover:-translate-y-1 transition duration-300">
+              TypeScript
+            </div>
+
+            <div className="rounded-xl border border-cyan-500/30 bg-zinc-900/60 p-5 sm:p-7 text-center text-cyan-400 font-semibold hover:border-cyan-400 hover:-translate-y-1 transition duration-300">
+              React
+            </div>
+
+            <div className="rounded-xl border border-teal-500/30 bg-zinc-900/60 p-5 sm:p-7 text-center text-teal-400 font-semibold hover:border-teal-400 hover:-translate-y-1 transition duration-300">
+              Tailwind CSS
+            </div>
+
+            <div className="rounded-xl border border-indigo-500/30 bg-zinc-900/60 p-5 sm:p-7 text-center text-indigo-400 font-semibold hover:border-indigo-400 hover:-translate-y-1 transition duration-300">
+              PHP
+            </div>
+
+            <div className="rounded-xl border border-yellow-500/30 bg-zinc-900/60 p-5 sm:p-7 text-center text-yellow-400 font-semibold hover:border-yellow-400 hover:-translate-y-1 transition duration-300">
+              Python
+            </div>
+
+            <div className="rounded-xl border border-red-500/30 bg-zinc-900/60 p-5 sm:p-7 text-center text-red-400 font-semibold hover:border-red-400 hover:-translate-y-1 transition duration-300">
+              Java
+            </div>
+
+            <div className="rounded-xl border border-cyan-500/30 bg-zinc-900/60 p-5 sm:p-7 text-center text-cyan-300 font-semibold hover:border-cyan-300 hover:-translate-y-1 transition duration-300">
+              MySQL
+            </div>
+
+            <div className="rounded-xl border border-gray-400/30 bg-zinc-900/60 p-5 sm:p-7 text-center text-gray-300 font-semibold hover:border-gray-200 hover:-translate-y-1 transition duration-300">
+              Langage C
+            </div>
+
+          </div>
+        </div>
+
+        {/* Design */}
+        <div>
+
+          <h3 className="text-xl sm:text-2xl font-semibold text-white mb-7 text-center sm:text-left">
+            <span className="text-cyan-400">02.</span> Outils de design et création
+          </h3>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-5">
+
+            <div className="rounded-xl border border-blue-500/30 bg-zinc-900/60 p-5 sm:p-6 text-center text-blue-400 font-semibold hover:border-blue-400 hover:-translate-y-1 transition duration-300">
+              Adobe Photoshop
+            </div>
+
+            <div className="rounded-xl border border-orange-500/30 bg-zinc-900/60 p-5 sm:p-6 text-center text-orange-400 font-semibold hover:border-orange-400 hover:-translate-y-1 transition duration-300">
+              Adobe Illustrator
+            </div>
+
+            <div className="rounded-xl border border-purple-500/30 bg-zinc-900/60 p-5 sm:p-6 text-center text-purple-400 font-semibold hover:border-purple-400 hover:-translate-y-1 transition duration-300">
+              Canva
+            </div>
+
+            <div className="rounded-xl border border-purple-500/30 bg-zinc-900/60 p-5 sm:p-6 text-center text-purple-300 font-semibold hover:border-purple-200 hover:-translate-y-1 transition duration-300">
+              CapCut
+            </div>
+
+            <div className="rounded-xl border border-violet-500/30 bg-zinc-900/60 p-5 sm:p-6 text-center text-violet-400 font-semibold hover:border-violet-400 hover:-translate-y-1 transition duration-300">
+              Adobe After Effects
+            </div>
+
+            <div className="rounded-xl border border-pink-500/30 bg-zinc-900/60 p-5 sm:p-6 text-center text-pink-400 font-semibold hover:border-pink-400 hover:-translate-y-1 transition duration-300">
+              Adobe InDesign
+            </div>
+
+          </div>
+        </div>
+
+      </div>
     </section>
   );
 }
